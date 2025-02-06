@@ -1,0 +1,40 @@
+:root {
+    --spacing-gap: 2rem;
+    --base-font-size: 1rem;
+}
+
+body {
+    background: url('freepik__upload__2692.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: var(--base-font-size);
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center items horizontally */
+    padding: var(--spacing-gap); /* Add some space around the body */
+    padding: 2rem; /* Add some space around the body */
+}
+
+.image-frame {
+    margin-top: 2rem;
+}
+.content {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.d-flex {
+    display: flex;
+    gap: var(--spacing-gap);
+    margin-top: 2rem;
+}
+
+
+.card-img-top {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
